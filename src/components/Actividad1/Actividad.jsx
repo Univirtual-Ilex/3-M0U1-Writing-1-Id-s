@@ -22,7 +22,7 @@ const Actividad_base =  ({...props}) => {
     return (
         <Container bgImage='./src/bg_actividad1.png' {...props}>
             <UiButtonsContainer>
-                <ButtonUi icon='ilx-ayuda' tooltip='msjClick one time in each phrase to listen how pronounce them. Listen before start to resolve the exercise' />
+                <ButtonUi icon='ilx-ayuda' tooltip='Read the information of each iD and then fill in the information below' />
                 <ButtonUi icon='ilx-volver' tooltip='Start Again' />
             </UiButtonsContainer>
             <IRow px={3} py={1.7} w={99} align='center' justify='center'>
