@@ -36,6 +36,7 @@ export const UiButtonsContainer = styled.div`
     position:absolute;
     right:1.6em;
     top:1em;
+    z-index:10;
 
 `
 

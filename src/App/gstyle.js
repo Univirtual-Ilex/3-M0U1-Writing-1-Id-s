@@ -2,8 +2,10 @@ import { createGlobalStyle } from 'styled-components'
 import Ilex from './variables'
 import icons from './fontIcon'
 
+
 const Gstyle = createGlobalStyle`
     ${icons}
+
     *{
         margin: 0;
         padding: 0;

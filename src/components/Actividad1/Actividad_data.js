@@ -1,95 +1,46 @@
 const data = [
     {
       "id": 0,
-      "name": "Classroom",
-      "audio": "audio.mp3",
-      "areaTarget": "area_1"
+      "name": "Leonora",
+      "surname": "Lopez",
+      "program": "BA in Spanish and Literature",
+      "idNumber": "1088456729",
+      "idType":"Alumnus",
+      "cardColor":"./src/id_card_purple.png",
+      "portrait":"./src/portrait1.png"
     },
     {
       "id": 1,
-      "name": "Planetarium",
-      "audio": "audio.mp3",
-      "areaTarget": "area_1"
+      "name": "Jerónimo",
+      "surname": "González",
+      "program": "Education Department",
+      "idNumber": "248726344",
+      "idType":"Teacher",
+      "cardColor":"./src/id_card_green.png",
+      "portrait":"./src/portrait2.png"
     },
+
     {
       "id": 2,
-      "name": "Parking Lot",
-      "audio": "audio.mp3",
-      "areaTarget": "area_1"
+      "name": "Brayan Yesid",
+      "surname": "Puerta",
+      "program": "Industrial Engineering",
+      "idNumber": "10873400119",
+      "idType":"Student",
+      "cardColor":"./src/id_card_red.png",
+      "portrait":"./src/portrait3.png"
     },
     {
       "id": 3,
-      "name": "Sport Area",
-      "audio": "audio.mp3",
-      "areaTarget": "area_1"
+      "name": "Luisa Maria",
+      "surname": "Perdomo",
+      "program": "Financial department ",
+      "idNumber": "3764592",
+      "idType":"Administrative Staff",
+      "cardColor":"./src/id_card_yellow.png",
+      "portrait":"./src/portrait4.png"
     },
-    {
-      "id": 4,
-      "name": "Auditorium",
-      "audio": "audio.mp3",
-      "areaTarget": "area_1"
-    },
-    {
-      "id": 5,
-      "name": "Fine Art Building",
-      "audio": "audio.mp3",
-      "areaTarget": "area_1"
-    },
-    {
-      "id": 6,
-      "name": "Introduction to Literature",
-      "audio": "audio.mp3",
-      "areaTarget": "area_2"
-    },
-    {
-      "id": 7,
-      "name": "Basic English",
-      "audio": "audio.mp3",
-      "areaTarget": "area_2"
-    },
-    {
-      "id": 8,
-      "name": "Reading And Writing Workshop",
-      "audio": "audio.mp3",
-      "areaTarget": "area_2"
-    },
-    {
-      "id": 9,
-      "name": "Educational Informatics",
-      "audio": "audio.mp3",
-      "areaTarget": "area_2"
-    },
-    {
-      "id": 10,
-      "name": "It's a pleasure",
-      "audio": "audio.mp3",
-      "areaTarget": "area_3"
-    },
-    {
-      "id": 11,
-      "name": "Nice to meet you",
-      "audio": "audio.mp3",
-      "areaTarget": "area_3"
-    },
-    {
-      "id": 12,
-      "name": "¡Hey, there! My name is Johnny",
-      "audio": "audio.mp3",
-      "areaTarget": "area_3"
-    },
-    {
-      "id": 13,
-      "name": "This is Maria",
-      "audio": "audio.mp3",
-      "areaTarget": "area_3"
-    },
-    {
-      "id": 14,
-      "name": "Glad to meet you",
-      "audio": "audio.mp3",
-      "areaTarget": "area_3"
-    }
-  ]
+]
 
 
 export default data

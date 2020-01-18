@@ -24,9 +24,9 @@ export const stylesRow = css`
     display: flex;
     flex-wrap:wrap;
     justify-content: ${ props => props.justify };
-    width:${ (props) => {
-        return props.w
-    } }%;
+    width:${ (props) => (
+         props.w ? props.w : 100
+    ) }%;
     margin: ${
         (props)=>{
             switch (props.align) {

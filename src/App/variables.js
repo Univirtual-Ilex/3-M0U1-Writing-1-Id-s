@@ -1,5 +1,6 @@
 const ilex = {
         font_size: '16px',
+        mdi:'Material Design Icons',
         titulos: `'Rubik', sans-serif `,
         font:  `'Open Sans', sans-serif`,
         violeta: `rgba(111,86,244,1)`,
