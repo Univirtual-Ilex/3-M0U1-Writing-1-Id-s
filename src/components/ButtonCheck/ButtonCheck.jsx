@@ -5,11 +5,11 @@ import styled from 'styled-components'
 import styles from './ButtonCheck_styles'
 
 // Componente base
-const ButtonCheck_base = ({...props}) => {
+const ButtonCheck_base = ({children, ...props}) => {
     return (
         <div {...props}>
             <button className='btn-clean'>
-                Check
+               {children ? children : 'Check'}
             </button>
         </div>
     )

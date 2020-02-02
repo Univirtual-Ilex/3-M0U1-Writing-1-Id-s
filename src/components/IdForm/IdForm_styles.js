@@ -31,6 +31,15 @@ position: relative;
         border-radius:0.2em;
         transform: scale(1.1,1.1)
     }
+    &.error:checked::before{
+        content:'';
+        width:1.05em;
+        height:1.05em;
+        position: absolute;
+        background-color: ${Ilex.color_rojo};
+        border-radius:0.2em;
+        transform: scale(1.1,1.1)
+    }
     &::before{
         content:'';
         width:1.05em;

@@ -35,7 +35,7 @@ const Actividad_base =  ({staticContext,...props}) => {
                     )
                 }) }
             </IRow>
-            <ButtonCheck />
+            <ButtonCheck onClick={() => (window.location='/')}> Finish </ButtonCheck>
         </Container>
     )
 
