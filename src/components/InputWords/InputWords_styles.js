@@ -5,7 +5,6 @@ const styles = css`
 display: inline-block;
 margin: ${props => props.m ? props.m : 0}em;
 width:${props => props.w ? props.w : '100'}%;
-
 `
 
 export const Input = styled.input`
@@ -20,6 +19,10 @@ font-size:1em;
 color:${Ilex.textos};
 font-weight:bold;
 width:100%;
+&.ok {
+    border:2px dashed ${Ilex.verde};
+    color: ${Ilex.verde}
+}
 
 
 `

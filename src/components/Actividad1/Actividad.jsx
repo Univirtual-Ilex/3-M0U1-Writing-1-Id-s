@@ -18,19 +18,19 @@ import data from './Actividad_data'
 
 
 
-const Actividad_base =  ({...props}) => {
+const Actividad_base =  ({staticContext,...props}) => {
     return (
         <Container bgImage='./src/bg_actividad1.png' {...props}>
             <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='Read the information of each iD and then fill in the information below' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' />
+                <ButtonUi icon='ilx-volver' tooltip='Start Again' click='/actividad1'/>
             </UiButtonsContainer>
             <IRow px={3} py={1.7} w={99} align='center' justify='center'>
                 { data.map(item => {
                     return (
                         <ICol w={20} key={item.id}>
                             <IdCard bgc={item.cardColor} info={item}/>
-                            <IdForm />
+                            <IdForm name={item.name} surname={item.surname} idnumber={item.idNumber} program={item.program} idtype={item.idType} />
                         </ICol>
                     )
                 }) }
