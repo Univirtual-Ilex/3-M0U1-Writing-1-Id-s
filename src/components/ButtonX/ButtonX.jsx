@@ -10,17 +10,18 @@ const styles = css`
     text-transform:uppercase;
     font-size:1.5em;
     display:block;
-    margin:1.5em 0;
-    padding: 0.4em 1.1em;
+    margin:0em 0 1.5em 0;
+    padding: 0.4em 1.1em 0.4em 1.1em;
     border-radius: 1em 1em 1em 1em;
     background: ${Ilex.degradado('90deg', Ilex.rosa, Ilex.azul, Ilex.violeta)};
     color:#fff;
     outline:none;
     cursor: pointer;
     box-shadow:0 0.2em 0 0 rgba(0,0,0,0.1);
+    transition: transform 0.5s cubic-bezier(.87,-0.39,.15,1.91);
     /* Hovers*/
     &:hover{
-        background: #000
+        transform: scale(1.2)
     }
 
 `
