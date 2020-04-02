@@ -8,7 +8,7 @@ import styles from './ButtonControlUI_styles'
 const ButtonControlUI_base = ({click, tooltip, icon,...props}) => {
     return (
         <div {...props}>
-            <button className='btn-clean' onClick={() => window.location.href = click}>
+            <button className='btn-clean'>
                 <i className={ icon }/>
             </button>
         </div>

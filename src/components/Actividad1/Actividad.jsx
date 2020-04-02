@@ -23,7 +23,7 @@ const Actividad_base =  ({staticContext,...props}) => {
         <Container bgImage='./src/bg_actividad1.png' {...props}>
             <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='Read the information of each iD and then fill in the information below' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' click='/actividad1'/>
+                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={() => window.location.reload()} />
             </UiButtonsContainer>
             <IRow px={3} py={1.7} w={99} align='center' justify='center'>
                 { data.map(item => {
@@ -35,7 +35,7 @@ const Actividad_base =  ({staticContext,...props}) => {
                     )
                 }) }
             </IRow>
-            <ButtonCheck onClick={() => (window.location='/')}> Finish </ButtonCheck>
+            <ButtonCheck onClick={() => (window.location.hash='/')}> Finish </ButtonCheck>
         </Container>
     )
 
